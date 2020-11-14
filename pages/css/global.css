@@ -178,8 +178,8 @@ header dropdowns
   margin: 0 5px;
 }
 a:visited {
-  color: #462311;
   text-decoration: none;
+  color: #fff;
 }
 a {
 	text-decoration: none;
