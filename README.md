@@ -4,9 +4,6 @@ Wrapper: Shop is the #1 method for getting all things Wrapper. It includes tons 
 ## Can I make my own version of it?
 Yes! It's easy!
 
-### But how?
-just use heroku or something idk
-
 # Why does Wrapper: Shop exist?
 It's designed to be an easy method of getting Wrapper or Wrapper mods.
 
