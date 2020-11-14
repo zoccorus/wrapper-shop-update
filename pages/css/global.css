@@ -163,15 +163,15 @@ header dropdowns
   padding:60px 40px;
   text-align: left;
   background-image: url(../img/banner.png);
-  color: white;
+  color: #fff;
   background-size: 769px;
   text-align: center;
 }
 .link-text {
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 500;
   color: #462311;
-  background: #fff;
+  background: transparent;
   border: 1px solid #fff;
   border-radius: 6px;
   padding: 8px 12px;
@@ -183,6 +183,7 @@ a:visited {
 }
 a {
 	text-decoration: none;
+	color: #fff;
 }
 main {
 	padding:20px 40px
