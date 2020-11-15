@@ -177,6 +177,10 @@ header dropdowns
   padding: 8px 12px;
   margin: 0 5px;
 }
+.link-text:hover {
+  background-color: #000000;
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
 a:visited {
   text-decoration: none;
   color: #fff;
