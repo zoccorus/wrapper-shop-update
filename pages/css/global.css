@@ -196,11 +196,12 @@ main {
 
 .mod {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 387px;
   margin: auto;
   text-align: center;
-  font-family: arial;
   border-radius: 5px;
+  display: inline-table;
+  margin: 9px;
 }
 
 .credit {
@@ -215,8 +216,9 @@ main {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 .mod button:hover {
