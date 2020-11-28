@@ -204,6 +204,11 @@ main {
   margin: 9px;
 }
 
+.thumbnail {
+  width: 387px;
+  height: 218px;
+}
+
 .credit {
   font-size: 15px;
 }
