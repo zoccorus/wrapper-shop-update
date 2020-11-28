@@ -212,6 +212,7 @@ img.thumbnail {
 }
 
 img.thumbnail:hover {
+  filter: opacity(0.7);
   /** hover animation **/
   transition: 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
