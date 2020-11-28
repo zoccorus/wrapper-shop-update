@@ -207,6 +207,13 @@ main {
 img.thumbnail {
   width: 387px;
   height: 218px;
+  /** dehover animation **/
+  transition: 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+img.thumbnail:hover {
+  /** hover animation **/
+  transition: 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .credit {
@@ -224,10 +231,12 @@ img.thumbnail {
   width: 90%;
   font-size: 18px;
   border-radius: 5px;
+  transition: 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .mod button:hover {
   opacity: 0.7;
+  transition: 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 /**
