@@ -204,7 +204,7 @@ main {
   margin: 9px;
 }
 
-.thumbnail {
+img.thumbnail {
   width: 387px;
   height: 218px;
 }
