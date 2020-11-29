@@ -250,6 +250,7 @@
 }
 .fa-download:before {
     content: "\f019";
+    padding-right: 8px;
 }
 .fa-arrow-circle-o-down:before {
     content: "\f01a";
