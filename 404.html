@@ -3,21 +3,148 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="favicon.ico" type="image/png">
-	<title>404 Error</title>
+	<title>a fucking 404 | Wrapper Shop</title>
 	<meta name="description" content="Anything and everything Wrapper.">
 	<link rel="stylesheet" type="text/css" href="pages/css/modern-normalize.css">
-	<link rel="stylesheet" type="text/css" href="pages/css/global.css">
 </head>
-<body>
+
+<body onload="typeWriter()">
 
 <header>
-	<h1 style="margin:0"><img id="logo" src="pages/img/logo.png" alt="Wrapper: Shop"/></h1>
+	<a href="https://wrappershop.ga"><h1 style="margin:0"><img id="logo" src="pages/img/logo.png" alt="Wrapper: Shop"/></h1></a>
 </header>
 
 <main>
 
-<h2>404 Not Found</h2>
+<h1>Whoops...</h1>
 
-<p>Are you looking for something?<br>Think you're some kind of detective?<br>Well think again!<br>Get out and use the shop properly!</p>
+<p id="textbefore404"></p>
+
+<p><a href="index.html">Click here to go back</a></p>
+
+</main>
+
+<script>
+var i = 0;
+var txt = "Since when did this page exist?      Oh well,    just click the link below to go back...                                  unless you wanna stay here.                                                                                                                                                    https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("textbefore404").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+      <script type="text/javascript">
+         <!--
+            function Redirect() {
+               window.location="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            }
+            
+            setTimeout('Redirect()', 14000);
+         //-->
+      </script>
+
+</body>
+<style>
+html,body{
+	background: #fff;
+	color: #474747;
+	font: 16px/1.5 'Sailec', Arial, sans-serif;
+	width:100%;height:100%;
+}
+body {
+	display: flex; 
+  flex-direction: column; 
+}
+
+
+/**
+header
+**/
+header {
+	/* style */
+	background: #1e1e1e;
+	color: #fff;
+	text-align: center;
+	/* layout */
+	height: 44px;
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+}
+#logo {
+	margin-top: 4px;
+	height: 35px;
+}
+main {
+	margin: 7vh auto 12px;
+	width: 800px
+}
+/**
+footer
+**/
+footer{
+	background: #1e1e1e;
+	margin-top: auto; /* footer at the foot */
+	display: flex;
+	justify-content: space-between
+}
+footer nav { margin:5px 10px}
+/* links */
+footer a {
+	color: #fff;
+	text-decoration:none;
+	margin: 0 10px;
+	font-weight: bold;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+/**
+font importing
+**/
+@font-face {
+	font-family: 'Sailec';
+	font-weight: 100;
+	src: url('pages/fonts/Sailec-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Sailec';
+	font-weight: 200;
+	src: url('pages/fonts/Sailec-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Sailec';
+	font-weight: 400;
+	src: url('pages/fonts/Sailec-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Sailec';
+	font-weight: 500;
+	src: url('pages/fonts/Sailec-Medium.woff') format('woff');
+}
+
+/* font weight 500 and font weight 700 (bold) are the same for better integration support */
+@font-face {
+	font-family: 'Sailec';
+	font-weight: 700;
+	src: url('pages/fonts/Sailec-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'GlyphiconsRegular';
+	src: url('pages/fonts/glyphicons-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+</style>
 
 </body></html>
